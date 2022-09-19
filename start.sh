@@ -1,5 +1,5 @@
 #/bin/sh
-if [ ! -f /usr/share/nginx/html/conf/config.js ]; then
+if [ -f /usr/share/nginx/html/conf/config.js ]; then
   cp /app/conf/config.js /usr/share/nginx/html/conf
 fi
 
