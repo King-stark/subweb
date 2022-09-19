@@ -2,6 +2,7 @@
 #if [ ! -f /usr/share/nginx/html/conf/config.js ]; then
 #  cp /app/conf/config.js /usr/share/nginx/html/conf
 #fi
+cp /app/conf/config.js /usr/share/nginx/html/conf
 
 if [ $API_URL ]; then
   echo "当前 API 地址为: $API_URL"
