@@ -9,8 +9,13 @@ window.config = {
       target: '',
     },
     {
+      title: '短链接',
+      link: 'https://leaf.tk',
+      target: '_blank',
+    },
+    {
       title: 'GitHub',
-      link: 'https://github.com/King-stark/subweb',
+      link: 'https://github.com/king-stark/subweb',
       target: '_blank',
     },
   ],
