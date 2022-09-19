@@ -1,6 +1,6 @@
 window.config = {
   siteName: 'Subconverter Web',
-  apiUrl: 'http://api.leaf.tk',
+  apiUrl: 'https://api.leaf.tk',
   shortUrl: 'https://leaf.tk',
   menuItem: [
     {
