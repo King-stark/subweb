@@ -1,4 +1,4 @@
-# subweb
+# subweb-Railway
 ## 简介
 subweb 是基于 subconverter 订阅转换的前端项目,方便用户快速生成各平台的订阅链接.
 
