@@ -1,4 +1,6 @@
 # subweb-Railway
+> 将以下大佬项目部署带railway
+
 ## 简介
 subweb 是基于 subconverter 订阅转换的前端项目,方便用户快速生成各平台的订阅链接.
 
@@ -13,6 +15,29 @@ Docker [stilleshan/subweb](https://hub.docker.com/r/stilleshan/subweb)*
 *`前后端示例,可以直接使用.`*
 
 ## 部署
+
+
+### 部署
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/0Z9eSC?referralCode=LKqerK)
+
+- 点击上方图片跳转 Railway
+- 登陆你的 Github 账号
+- 填写你要创建的库名  
+- 点击部署
+- 配置自定义域名以通过此域名访问
+
+🎉🎉🎉 完成！🎉🎉🎉
+
+### 绑定域名
+> 简述，具体配置请参考[官方文档](https://docs.railway.app/deploy/exposing-your-app#lets-encrypt-ssl-certificates)。
+
+- 在 Cloudflare 中添加 `Cname` 解析指向 `yourapp.yourrailwayproject.com` 
+    - 可能长这样 `https://xxxx-xxxxx.xx.railway.app/`
+- 并配置 `SSL/TLS` 的 **加密模式** 为 **完全** 或 **完全（严格）**
+- 在 `Railway` 的 `Settings - Domains` 中接入该域名
+
+
 ### docker 本地版
 *适用于本机快速部署使用*
 ```shell
