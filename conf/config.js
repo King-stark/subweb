@@ -1,7 +1,7 @@
 window.config = {
   siteName: 'Subconverter Web',
-  apiUrl: 'http://127.0.0.1:25500',
-  shortUrl: 'https://s.ops.ci',
+  apiUrl: 'http://api.leaf.tk',
+  shortUrl: 'https://leaf.tk',
   menuItem: [
     {
       title: '首页',
@@ -10,7 +10,7 @@ window.config = {
     },
     {
       title: 'GitHub',
-      link: 'https://github.com/stilleshan/subweb',
+      link: 'https://github.com/King-stark/subweb',
       target: '_blank',
     },
   ],
