@@ -10,7 +10,7 @@ window.config = {
     },
     {
       title: 'GitHub',
-      link: 'https://github.com/King-stark/subweb.git',
+      link: 'https://github.com/King-stark/subweb',
       target: '_blank',
     },
   ],
