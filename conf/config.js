@@ -1,7 +1,7 @@
 window.config = {
   siteName: 'Subconverter Web',
   apiUrl: 'https://api.leaf.tk',
-  shortUrl: 'https://leaf.tk',
+  shortUrl: 'https://s.ops.ci',
   menuItem: [
 //     {
 //       title: '首页',
