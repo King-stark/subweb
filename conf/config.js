@@ -1,7 +1,7 @@
 window.config = {
   siteName: 'Subconverter Web',
   apiUrl: 'https://api.leaf.tk',
-  shortUrl: 'https://s.ops.ci',
+  shortUrl: 'https://leaf.tk',
   menuItem: [
 //     {
 //       title: '首页',
@@ -10,7 +10,7 @@ window.config = {
 //     },
     {
       title: '短链接',
-      link: 'https://s.ops.ci',
+      link: 'https://leaf.tk',
       target: '_blank',
     },
 //     {
