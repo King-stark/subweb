@@ -10,7 +10,7 @@ window.config = {
 //     },
     {
       title: '短链接',
-      link: 'https://leaf.tk',
+      link: 'https://s.ops.ci',
       target: '_blank',
     },
 //     {
